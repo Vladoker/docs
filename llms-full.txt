@@ -1369,6 +1369,17 @@ export default defineNuxtConfig({
 
 ## Image
 
+Custom image
+
+::code-preview
+![Custom image](https://823733684-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F00tYLwhz5RyR7fJEhrWy%2Fuploads%2F9el6yIQeSENvCV5tU3rW%2FScreenshot%202025-06-10%20232758.png?alt=media\&token=e14343d0-6128-45ed-a9d9-e0c934c63344%201x,%20https://823733684-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F00tYLwhz5RyR7fJEhrWy%2Fuploads%2F9el6yIQeSENvCV5tU3rW%2FScreenshot%202025-06-10%20232758.png?alt=media\&token=e14343d0-6128-45ed-a9d9-e0c934c63344%202x){height="150"}
+
+#code
+```mdc
+:img{src="https:/..." alt="Custom image" height="50"}
+```
+::
+
 ### Using Markdown
 
 Display images using standard Markdown syntax. Markdown images are simple to implement for basic image display.
@@ -1407,7 +1418,7 @@ Embeds allow adding various HTML elements like videos and iframes. This feature 
 ---
 class: "[&>div]:*:w-full"
 ---
-:iframe{allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frameBorder="0" referrerPolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/_eQxomah-nA?si=pDSzchUBDKb2NQu7" style="aspect-ratio: 16/9;" title="YouTube video player"}
+:iframe{allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" frame-border="0" referrer-policy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/_eQxomah-nA?si=pDSzchUBDKb2NQu7" style="aspect-ratio: 16/9;" title="YouTube video player"}
 
 #code
 ```mdc
